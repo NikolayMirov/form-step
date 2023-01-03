@@ -1,0 +1,66 @@
+.title {
+  color: #999aa4;
+  font-weight: 600;
+  font-size: 15px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  color: #66676d;
+  font-weight: 500;
+  font-size: 13px;
+  padding: 1px 0;
+  text-transform: uppercase;
+}
+
+.table {
+  display: flex;
+}
+
+.table_data {
+  display: flex;
+}
+
+.table_item input {
+  display: block;
+  width: 50px;
+  color: #66676d;
+  font-weight: 500;
+  font-size: 13px;
+
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #181b1f;
+  border: none;
+}
+
+.table_item input:focus {
+  color: #5799e4;
+  outline: none;
+}
+
+.table_item input::-webkit-outer-spin-button,
+.table_item input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.table_option {
+  text-align: center;
+  color: #999aa4;
+  font-weight: 600;
+  font-size: 15px;
+
+  text-transform: uppercase;
+}
+
+.table_option a {
+  cursor: pointer;
+  padding: 0 2px;
+}
+
+.table_option a:hover {
+  color: #5799e4;
+}
