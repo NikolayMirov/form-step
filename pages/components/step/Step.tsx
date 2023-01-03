@@ -10,7 +10,7 @@ const Step: FC = () => {
     },
     {
       id: 2,
-      month: 6,
+      month: 5,
       ob: 4,
     },
     {
